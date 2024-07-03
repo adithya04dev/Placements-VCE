@@ -8,7 +8,7 @@ st.set_page_config(page_title="Placements Analysis App", layout="wide")
 st.title("Placements Analysis")
 
 # Read CSV file
-df = pd.read_csv(r"C:\Users\adith\Documents\Projects\python-projects\campus\combined.csv")
+df = pd.read_csv("combined.csv")
 
 # Create columns for filters
 col1, col2 = st.columns(2)
